@@ -20,3 +20,8 @@
 * LINE_LOOP: Like line strip, but generates line segment between  the last and the first
 * TRIANLGES: Like LINES, but takes evert three points to make a filled triangle
 * second param of drawArrays is the offset/starting vertex
+
+### 5: Loading in WebGL Shaders
+* This part is just about loading a shader from somewhere else other than a string in the script
+* IMO this part is outdated, as the proposed solution is to load the shader from a script tag in the DOM
+* Why not have a shader in it's own file?
